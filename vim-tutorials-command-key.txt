@@ -1,0 +1,36 @@
+Navigating the Cursor
+h - to move the cursor left
+l - to move the cursor right
+k - to move the cursor top
+j - to move the cursor down
+0(zero) - to move to the start of the line
+
+How to exit in VIM
+q! - exit without saving the changes
+wq - exit and save changes
+
+How to insert
+i - to insert text or characters before the cursor
+a - another way to insert text or characters after the cursor
+How to jumped /word using counting process
+2w - jumped 2 words
+3w - jumped 3 words
+
+How to delete
+x - to delete single character
+dw - to delete from the cursor up to the next word
+d$ - to delete from the cursor to the end of a line
+ce - to deletes the word and places you in Insert mode.
+c$ - to delete from the cursor to the end of a line and places you in Insert mode.
+
+How to delete /word using counting process
+d2w - to delet 2 words
+d3w - to delet 3 words
+
+How to delete line or multiple lines
+dd - delete single line
+2dd - delete 2 lines
+
+How to replace character/s
+r - to replace character/s
+p - paste
