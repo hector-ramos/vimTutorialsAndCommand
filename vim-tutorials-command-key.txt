@@ -33,4 +33,29 @@ dd - delete single line
 
 How to replace character/s
 r - to replace character/s
+
+Search on VIM
+" / " - command or key to find or search word/s direction forward
+
+" ? " - command or key to find or search word/s direction backward
+n - same direction
+N - opposite direction
+% - to match (), {}, []
+
+Substitute
+:s/old word/new word/g - change word
+
+Motion on VIM
+v - to highlight or select the characters, word/s or line/s
+v + h - to select left
+v + j - to select down
+v + k - to select up
+v + l - to select right
+
+Open Command on VIM
+o (lowercase) - open new line below the cursor
+O (uppercase) - open new line above the cursor
+
+Copy and Paste on VIM
+y - to copy
 p - paste
